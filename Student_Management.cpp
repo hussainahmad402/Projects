@@ -102,11 +102,13 @@ void show_data() // Show the student record
 	cin >> checkuser;
 	cout << "Enter the password: ";
 	cin >> checkpasword;
+	bool found=false;
 
 	while (out_username >> username >> password)
 	{
 		if (username == checkuser && password == checkpasword) // check the username & password are match or not
 		{
+			found=true;
 			cout << "\t\t\t\t\tUser Found" << endl;
 			cout << "\t\t\t\t_____________________________" << endl;
 
@@ -127,5 +129,8 @@ void show_data() // Show the student record
 		}
 	}
 	out_data.close();
+	if(found==false)
+	{
+		cout<<endl<<"\t\t\t\t\tInvalid Username or Password"<<endl<<endl;
 	main();
 }
