@@ -1,6 +1,6 @@
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// To check the car list first we enter the car name, car model and the car price/km in the "car_detail" file than it can show the list of the availaable car otherwise the list can't show
+// To check the car list first we enter the car name, car model and the car price/km in the "car_detail" file than it can show the list of the available car otherwise the list can't show
 
 
 #include <iostream>
